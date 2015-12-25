@@ -1,0 +1,34 @@
+<div class="article_content" id="article_content">
+<p style="margin-top:0px; margin-bottom:15px; color:rgb(51,51,51); font-family:Tahoma,Helvetica,Arial,sans-serif; font-size:14px; letter-spacing:0.5px; line-height:24px">
+为满足伸缩性，所需的架构模式包含：</p>
+<ol style="margin-top:0px; margin-bottom:10px; color:rgb(51,51,51); font-family:Tahoma,Helvetica,Arial,sans-serif; font-size:14px; letter-spacing:0.5px; line-height:24px">
+<li style="">分布式，这个前面有单独的章节进行了讲解，分布式是互联网时代的主旋律。</li><li style="">负载均衡，前面已经有讲解。</li><li style="">服务拆分，按照业务进行系统服务的拆分并单独部署。</li></ol>
+<p style="margin-top:0px; margin-bottom:15px; color:rgb(51,51,51); font-family:Tahoma,Helvetica,Arial,sans-serif; font-size:14px; letter-spacing:0.5px; line-height:24px">
+为满足伸缩性，需要的支撑系统：</p>
+<ol style="margin-top:0px; margin-bottom:10px; color:rgb(51,51,51); font-family:Tahoma,Helvetica,Arial,sans-serif; font-size:14px; letter-spacing:0.5px; line-height:24px">
+<li style="">运维系统：
+<ol style="margin-top:0px; margin-bottom:0px">
+<li style="">自动扩容，缩容</li></ol>
+</li><li style="">监控系统
+<p></p>
+<ol style="margin-top:0px; margin-bottom:0px">
+<li style="">监控流量，确定何时伸缩</li></ol>
+<div><br>
+</br></div>
+<p></p>
+</li></ol>
+<div><span style="font-family:Tahoma,Helvetica,Arial,sans-serif; color:#333333"><span style="font-size:14px; letter-spacing:0.5px; line-height:24px"></span></span>
+<p style="margin-top:0px; margin-bottom:15px; color:rgb(51,51,51); font-family:Tahoma,Helvetica,Arial,sans-serif; font-size:14px; letter-spacing:0.5px; line-height:24px">
+为满足安全性，所需的架构模式包含：</p>
+<ol style="margin-top:0px; margin-bottom:10px; color:rgb(51,51,51); font-family:Tahoma,Helvetica,Arial,sans-serif; font-size:14px; letter-spacing:0.5px; line-height:24px">
+<li style="">数据加密，密码的加密存储、关键数据的加密传输，才有https。</li><li style="">数据校验，数据传输时，同时传递明文和密文校验数据未被篡改。前端及后端进行数据的有效性校验，比如数字、日期等。</li></ol>
+<p style="margin-top:0px; margin-bottom:15px; color:rgb(51,51,51); font-family:Tahoma,Helvetica,Arial,sans-serif; font-size:14px; letter-spacing:0.5px; line-height:24px">
+为满足安全性，需要的支撑系统：</p>
+<ol style="margin-top:0px; margin-bottom:10px; color:rgb(51,51,51); font-family:Tahoma,Helvetica,Arial,sans-serif; font-size:14px; letter-spacing:0.5px; line-height:24px">
+<li style="">安全系统
+<ol style="margin-top:0px; margin-bottom:0px">
+<li style="">屏蔽字过滤，帮助过滤发言的屏蔽字，并能及时新增屏蔽字</li><li style="">垃圾过滤，过滤广告机及其他</li><li style="">安全扫描，自动扫描发现网站安全漏洞</li><li style="">攻击行为识别，自动定义或识别用户的攻击行为，及时预警</li><li style="">防攻击，通过防火墙防止各种攻击行为</li></ol>
+</li></ol>
+<br>
+</br></div>
+</div>
